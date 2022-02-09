@@ -6,8 +6,8 @@ body {
 }
 
 h1 {
-    margin-top: 50px;
-    margin-bottom: -10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 a#links {
@@ -19,7 +19,7 @@ a#links {
 .picture {
     height: 300px;
     align-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 img {
@@ -30,9 +30,20 @@ img {
 .top-bar {
     height: 44px;
     background-color: rgb(136, 49, 60);
-    text-align: left;
+    padding-top: 20px;
 }
 
-.top-bar a {
+.main-nav {
+    text-align: center;
+    list-style: none;
+}
+
+.main-nav a {
     color: aliceblue;
+    font-size: x-large;
+    display: inline-block
+}
+
+.main-page-text {
+    
 }
