@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(215, 224, 228);
+    background-color: rgb(68, 72, 73);
     text-align: center;
-    color: rgb(49, 49, 49);
+    color: rgb(255, 255, 255);
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -10,7 +10,29 @@ h1 {
     margin-bottom: -10px;
 }
 
-.links {
+a#links {
     text-align: left;
-    text-underline-position: below;
+    margin-top: auto;
+    font-size: 30pt;
+}
+
+.picture {
+    height: 300px;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+img {
+    width: auto;
+    max-height: 100%;
+}
+
+.top-bar {
+    height: 44px;
+    background-color: rgb(136, 49, 60);
+    text-align: left;
+}
+
+.top-bar a {
+    color: aliceblue;
 }
