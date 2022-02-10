@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Jesse Reeves' Blog</title>
+    <meta charset="UTF-8">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="main-nav">
+      <div class="top-bar">
+      </div>
+      <ul class="main-nav">
+        <li>
+          <a href="blogs.html">Blogs</a>
+        </li>
+        <li>
+          <a href="about.html">About Me</a>
+        </li>
+        <li>
+          <a href="index.html">Back to Main</a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+    </header>
+    <div class="container"><h1>Technical Blog - Classes vs ID's</h1>
+      <h2>Introduction to HTML and CSS</h2>
+      <p>When working with HTML / CSS (two out of the three main building blocks for websites) we want to be able to style our raw tags inside HTML using three different methods. The first method is to use the 'style' tag inside the HTML directly. This works the same as linking our HTML to a CSS file except if working with a large piece of code it can get messy and we can easily miss things when trying to get our HTML code to look a specific way. The easier method is to link our HTML and CSS together using a 'link' tag with the appropriate "href" which links to our CSS file that we created earlier. Once we have linked the HTML and CSS together, anything we do on the CSS file will apply to our HTML.</p>
+      <br>
+      <p>But how does the HTML know what CSS rules to apply? We can figure that out using the other two methods I mentioned before, classes and ID's.</p>
+      <p>We can create classes and ID's in CSS using a specific syntax for each and then writing rules for those classes/ID's in the code block for that specific class or ID.</p>
+      <h2>Classes</h2>
+      <p> Lets cover classes first. Classes can be written like such in CSS.</p>    
+      <img src="./images/CSS class.jpg">
+      <p>Any rules we put inside that code block will apply to any HTML that you apply the class="cities" element to. 
+        Classes are 'not unique' meaning that they can be used across multiple tags/elements on your HTML freely without consequence.
+        </p>
+      <h2>ID's</h2>
+      <p>Lets discuss ID's now.</p>
+      <p>ID's work similarly to classes as they apply styling to an element of HTML except ID's are 'unique'. This means that each ID you create can only be used on one element in your HTML code. (fun fact I didn't actually know this before I looked into it! The things you learn with google.)
+      </p>
+      <p>You can create an ID in CSS like this.</p>
+      <img src="./images/CSS ID.jpg">
+      <p>We then apply them to elements in HTML similarly like we do to classes except we the keyword 'ID' instead of 'class'.</p>
+      <h2>When to use classes vs ID's?</h2>
+      <p>In the browser, classes have no special function. Their main purpose is to allow you to apply styles to a range of elements on a web page. IDs, on the other hand, can be used by the browser to navigate to a certain part of the web page.
+
+        If you assign an element an ID, you can use a special URL to link directly to that element. This behavior works because IDs are unique on a web page. Source "https://careerkarma.com/blog/css-class-vs-id-2/#:~:text=an%20ID%20selector.-,Conclusion,to%20apply%20to%20multiple%20elements."</p>
+      <h2>Conclusion</h2>
+      <p>So in closing, classes and ID's can both be used to apply styling from a CSS file to an HTML file. Classes are non-unique meaning they can be used alot over different parts of your HTML as much as you like. ID's are unique meaning they can only be used once per webpage but they also have special functionality allowing you to assign special URL's to them which link them to other elements on the page meaning if you click on a button that says "Contact Information" it will pull you to the contact information section on that webpage.
+
+        I hope this was informative, have a great day.</p>
+    </div>
+    <div class="top-bar"></div>
+  </body>
+</html>

@@ -44,6 +44,21 @@ img {
     display: inline-block
 }
 
-.main-page-text {
-    
+.span-box {
+    width: auto;
+    height: auto;
+    padding: 15px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 40px;
+    background-color: rgba(211, 211, 211, 0.384);
+    border-color:rgb(136, 49, 60);
+    text-align: left;
+}
+
+#classes-blog {
+    font-size: 75px;
 }
